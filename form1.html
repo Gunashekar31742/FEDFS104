@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <Form action="https://newerp.kluniversity.in">
+        <h3>
+            Personal Information
+        </h3>
+        Fullname:<input type="text" required><br>
+        Gender:<input type="radio" name="gn" value="m">Male
+        <input type="radio" name="gn" value="fm">female
+        <br>
+        Email:<input type="email" required><br>
+        Contact:<input type="tel" pattern=[0-9]{10}><br>
+         Date of birth:<input type="date" required><br>
+        Address:<textarea rows ="4"<br>
+
+            </textarea>
+            <h3>Academic details</h3>
+            Branch:
+            <select>
+                <option value="civil">select--</option>
+                <option value="cse">computer science</option>
+                <option value="ece">electronics</option>
+                <option value="eee">eletrical</option>
+                <option value="civil">civil</option>
+            </select><br>
+            Languages known:
+            <input type="checkbox" name="cb" value="telugu">telugu
+             <input type="checkbox" name="cb" value="hindi">hindi
+              <input type="checkbox" name="cb" value="english">english
+               <input type="checkbox" name="cb" value="tamil">tamil
+               <br>
+               Upload Resume:
+               <input type="file"><br>
+               <button>submit</button>
+    </Form>
+    
+</body>
+</html>
